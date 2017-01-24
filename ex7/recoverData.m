@@ -6,9 +6,6 @@ function X_rec = recoverData(Z, U, K)
 %   approximate reconstruction in X_rec.
 %
 
-% You need to return the following variables correctly.
-X_rec = zeros(size(Z, 1), size(U, 1));
-
 % ====================== YOUR CODE HERE ======================
 % Instructions: Compute the approximation of the data by projecting back
 %               onto the original space using the top K eigenvectors in U.
